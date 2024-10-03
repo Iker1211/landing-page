@@ -1,0 +1,62 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, 
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background:#1f2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.LOGO {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul,
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+
+
+
+
+
+
