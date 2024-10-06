@@ -15,11 +15,20 @@ body,
     background: url(images/1349325.png) fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 526px;
 }
 
 header {
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    background: url(images/1349325.png) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    z-index: 9999;
 }
 
 .LOGO {
@@ -43,6 +52,7 @@ ul {
     padding-right: 110px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: auto;
 }
 
 h1 {
@@ -88,22 +98,36 @@ button {
 
 .information h1 {
 font-size: 36px;
-color: #1F2937;
+color: #F9FAF8;
 font-weight: 900px;
-}
-
-.information p {
-    color: black;
+margin-bottom: 16px;
+z-index: 9999;
 }
 
 .information {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background: orange;
+    width: 100%;
+}
+
+.prueba {
+    background: url(./images/yerba.png);
+    filter: blur(3px);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .boxes {
+    left: 0;
+    right: 0;
+    z-index: 9999;
     display: flex; 
     text-align: center;
     justify-content: space-around;
@@ -112,6 +136,29 @@ font-weight: 900px;
 
 .box {
     width: 250px;
+}
+
+.box .leyenda {
+color: transparent;
+}
+
+.box:hover .leyenda{
+    color: #E5E7EB; 
+}
+
+.box img {
+    margin-bottom: 6px;
+}
+
+.box img:hover {
+transform: scale(1.05);
+}
+
+.quote h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 16px;
 }
 
 
