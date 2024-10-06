@@ -12,7 +12,9 @@ body,
 }
 
 .header {
-    background:#1f2937;
+    background: url(images/1349325.png) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -34,16 +36,20 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
     padding-left: 110px;
     padding-right: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
 }
 
 ul,
@@ -51,6 +57,31 @@ p {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-basis: 50%;
+    gap: 16px;
+}
+
+img {
+display: flex;
+justify-content: left;
+}
+
+button {
+    background-color: rgb(255, 123, 0);
+    color: #F9FAF8;
+    border: 2mm ridge rgba(236, 143, 36, 0.753);
+    border-radius: 15px;
+    font-size: 24px;
+    padding: 10px;
+    width: 150px;
+}
+
+
 
 
 
