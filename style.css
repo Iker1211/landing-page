@@ -22,12 +22,14 @@ header {
     display: flex;
     justify-content: space-around;
     position: sticky;
-    background: url(images/1349325.png) fixed;
-    background-repeat: repeat;
+    background-color: rgb(255, 123, 0);
+    background: linear-gradient
+    (90deg, rgba(255, 123, 0, 1) 0%, rgba(236, 143, 36, 1) 100%);
+    border: 2.5mm ridge rgba(236, 143, 36, 0.753);
     top: 0px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    z-index: 9999;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 1000000;
 }
 
 .LOGO {
@@ -40,6 +42,12 @@ ul {
     list-style-type: none;
     justify-content: space-between;
     gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 .hero {
@@ -173,8 +181,11 @@ transform: scale(1.05);
     background: url(images/1349325.png) fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 9998;
-    padding: 5% 20%;
+    z-index: 1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .quote p {
@@ -190,6 +201,22 @@ transform: scale(1.05);
     text-align: right;
     font-weight: 700;
     font-style: normal;
+}
+
+#f {
+    color: black;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 0;
+}
+
+#n {
+    background-color: rgb(255, 123, 0);
+    border: 2mm ridge rgba(236, 143, 36, 0.753);
+    border-radius: 15px;
 }
 
 
