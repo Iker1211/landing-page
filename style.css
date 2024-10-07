@@ -15,7 +15,7 @@ body,
     background: url(images/1349325.png) fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 526px;
+    min-height: 100%;
 }
 
 header {
@@ -23,7 +23,6 @@ header {
     justify-content: space-around;
     position: sticky;
     background: url(images/1349325.png) fixed;
-    background-size: cover;
     background-repeat: repeat;
     top: 0px;
     padding-top: 24px;
@@ -103,6 +102,7 @@ color: #F9FAF8;
 font-weight: 900px;
 margin-bottom: 16px;
 z-index: 9999;
+padding-top: 50px;
 }
 
 .information {
@@ -114,20 +114,29 @@ z-index: 9999;
     height: 100%;
 }
 
-.prueba {
-    background: url(./images/yerba.png);
+.background {
+    background: url(./images/yerba.png) fixed;
+    background-size: cover;
     filter: blur(3px);
-    margin-top: 175px;
-    height: 100%;
     width: 100%;
     height: 100%;
     z-index: 0;
     position: absolute;
     background-size: none;
     background-repeat: repeat;
+    padding-bottom: 82px;
 }
 
 .boxes {
+    z-index: 9999;
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.boxxes {
     z-index: 9999;
     display: flex; 
     text-align: center;
@@ -136,7 +145,7 @@ z-index: 9999;
 }
 
 .box {
-    width: 250px;
+    width: 200px;
 }
 
 .box .leyenda {
@@ -157,22 +166,33 @@ transform: scale(1.05);
 }
 
 .box p {
-    margin-bottom: 16px;
+    font-size: 18px;
 }
 
 .quote {
     background: url(images/1349325.png) fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 9999;
+    z-index: 9998;
+    padding: 5% 20%;
 }
 
-.quote h1 {
+.quote p {
     font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    margin-bottom: 16px;
+    color: #F9FAF8;
+    font-style: italic;
+    font-weight: light;
+    text-align: center;
 }
+
+#author {
+    font-size: 24px;;
+    text-align: right;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
 
 
 
