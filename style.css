@@ -105,6 +105,25 @@ button {
     width: 160px;
 }
 
+button:hover {
+    transform: scale(1.05);
+}
+
+button {
+    transition: ease 0.07s;
+}
+
+.button {
+    background-color: #1F2937;
+    color: #F9FAF8; 
+    border: 2mm ridge #4B5563;
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    width: 160px;
+}
+
 .information h1 {
 font-size: 36px;
 color: #F9FAF8;
@@ -217,20 +236,17 @@ transform: scale(1.05);
     padding: 1% 10%;
 }
 
-.button {
-    background-color: #1F2937;
-    color: #F9FAF8; 
-    border: 2mm ridge #4B5563;
-    font-weight: 700;
-    border-radius: 15px;
-    font-size: 18px;
-    padding: 10px;
-    width: 160px;
-}
-
 #l p {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: left;
+}
+
+#l p:first-child {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+    text-align: center;
 }
 
 .footer {
@@ -243,13 +259,3 @@ transform: scale(1.05);
     font-size: 18px;
     color:#F9FAF8;
 }
-
-
-
-
-
-
-
-
-
-
