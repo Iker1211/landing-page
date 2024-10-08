@@ -24,8 +24,8 @@ header {
     position: sticky;
     background-color: rgb(255, 123, 0);
     background: linear-gradient
-    (90deg, rgba(255, 123, 0, 1) 0%, rgba(236, 143, 36, 1) 100%);
-    border: 2.5mm ridge rgba(236, 143, 36, 0.753);
+    (90deg, rgba(255, 123, 0, 1) 50%, rgba(236, 143, 36, 1) 100%);
+    border: 1.2mm ridge rgba(236, 143, 36, 0.753);
     top: 0px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -34,7 +34,8 @@ header {
 
 .LOGO {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #333333;
+    font-weight: 900;
 }
 
 ul {
@@ -217,9 +218,38 @@ transform: scale(1.05);
     background-color: rgb(255, 123, 0);
     border: 2mm ridge rgba(236, 143, 36, 0.753);
     border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1% 10%;
 }
 
+.button {
+    background-color: #1F2937;
+    color: #F9FAF8; 
+    border: 2mm ridge #4B5563;
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px;
+    width: 160px;
+}
 
+#l p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.footer {
+    z-index: 0;
+    background-color: #1F2937;
+    background-size: cover;
+    padding-top: 132px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 18px;
+    color:#F9FAF8;
+}
 
 
 
