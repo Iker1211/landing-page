@@ -142,7 +142,7 @@ padding-top: 50px;
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .boxxes {
@@ -205,22 +205,15 @@ transform: scale(1.05);
 }
 
 #f {
-    color: black;
     z-index: 10000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 36px;
     margin-bottom: 0;
-}
-
-#n {
     background-color: rgb(255, 123, 0);
     border: 2mm ridge rgba(236, 143, 36, 0.753);
     border-radius: 15px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: left;
     padding: 1% 10%;
 }
 
